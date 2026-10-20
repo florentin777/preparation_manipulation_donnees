@@ -1,0 +1,12 @@
+id_officine,nom_site,ville,region,capacite
+OFF01,Site Paris,Paris,Ile-de-France,722
+OFF02,Site Lyon,Lyon,Auvergne-Rhone-Alpes,127
+OFF03,Site Marseille,Marseille,PACA,234
+OFF04,Site Lille,Lille,Hauts-de-France,582
+OFF05,Site Bordeaux,Bordeaux,Nouvelle-Aquitaine,202
+OFF06,Site Nantes,Nantes,Pays de la Loire,611
+OFF07,Site Toulouse,Toulouse,Occitanie,106
+OFF08,Site Strasbourg,Strasbourg,Grand Est,769
+OFF09,Site Rennes,Rennes,Bretagne,591
+OFF10,Site Montpellier,Montpellier,Occitanie,254
+OFF99,Site technique,Orleans,Centre-Val de Loire,2500
