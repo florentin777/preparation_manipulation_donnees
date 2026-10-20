@@ -1,0 +1,11 @@
+﻿Décision;Justification;Alternative écartée;Motif du rejet
+Supprimer les doublons stricts;Éviter de compter plusieurs fois une même délivrance;Conserver les doublons;Risque de surestimer le nombre de délivrances
+Convertir les montants en numérique;Permettre les calculs sur les remboursements;Supprimer les montants textuels;Les montants sont récupérables après conversion
+Conserver les dates manquantes;Garder les délivrances utiles aux autres analyses;Supprimer les lignes sans date;Cela entraînerait une perte d'informations
+Normaliser les textes;Uniformiser les statuts et types d'ordonnance;Conserver les écritures originales;Une même catégorie pourrait être comptée plusieurs fois
+Remplacer les âges aberrants par NaN;Ne pas fausser les statistiques des patients;Remplacer les âges par la moyenne;La moyenne créerait des âges artificiels
+Conserver les durées manquantes;Éviter d'inventer une durée de traitement;Remplacer les valeurs manquantes par zéro;Une durée inconnue n'est pas une durée de zéro jour
+Conserver les quantités nulles;Permettre une vérification selon le statut;Supprimer automatiquement les lignes;Une quantité nulle peut avoir une explication métier
+Conserver les produits inconnus;Préserver les délivrances malgré les clés orphelines;Supprimer les produits inconnus;Cela entraînerait une perte de délivrances
+Utiliser des jointures left;Conserver toutes les délivrances;Utiliser des jointures inner;Les lignes sans correspondance seraient supprimées
+Conserver les coûts manquants;Éviter de créer un coût fictif;Remplacer les coûts par zéro;Un coût inconnu ne signifie pas un produit gratuit
