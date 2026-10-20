@@ -1,0 +1,7 @@
+﻿Contrôle;Résultat;Détail
+Conservation des délivrances;OK;21783 lignes obtenues / 21783 attendues
+Absence de doublons stricts;OK;0 doublon(s) restant(s)
+Montants numériques;OK;Type : Float64
+Dates converties;OK;Type : datetime64[us]
+Âges plausibles;OK;Tous les âges renseignés sont compris entre 0 et 120 ans
+Statuts normalisés;OK;Minuscules et espaces parasites supprimés
