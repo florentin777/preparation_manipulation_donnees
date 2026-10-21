@@ -1,2 +1,3 @@
 ﻿Étape;Avant;Après;Lignes supprimées;Explication
 Doublons stricts;21973;21783;190;Évite de compter plusieurs fois la même délivrance
+Dates manquantes ou invalides;21783;21348;435;Suppression pour garantir une date exploitable à chaque délivrance
